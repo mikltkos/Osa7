@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs/5e12fa0a06fb881b6d0c855f/comments
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RhYWphIiwiaWQiOiI1ZGJiZTQ4ZDNlYzdlNTM1ZjI1NjZlYzciLCJpYXQiOjE1NzgyMzg4NzJ9.bW-EgoyqWGsCT_0pnj4Nl0X1eXj-O49BRO3cn8Ps0gk
+
+{
+    "title": "testi blogi",
+    "author": "Teppo Testaaja",
+    "url": "http://www.testiurl.com",
+    "comments": "tämä on testikommentti"
+}
